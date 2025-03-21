@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>GREEN LIGHT GROUP</title>
+    <style>
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header Section with Dynamic Height */
+        .header {
+            width: 100%;
+            position: relative;
+            background-size: cover; /* Ensures image covers the entire container */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Optional: keeps the background fixed */
+            padding-top: 56.25%; /* Aspect Ratio (16:9) for responsive design */
+            height: 0;
+        }
+
+        /* Background Image Slideshow */
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            animation: slideshow 12s infinite step-end;
+            animation-fill-mode: forwards;
+        }
+        @keyframes slideshow {
+            0% ,15%  { background-image: url("image/pl2.jpg") ; }
+            33% ,48% { background-image: url("image/pl3.jpg"); }
+            66% ,81% { background-image: url("image/pl4.jpg" );}
+            100% { background-image: url("image/pl2.jpg"); }
+        }
+        .header-content {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            z-index: 2;
+        }
+        </style>
+ </head>
+ <body>
+    <header>
+        <div class="dropdown">
+            <button class="dropdown-btn"><b> MENU</b></button>
+            <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+        <div>
+          <h2>GREEN LIGHT GROUP</h2>
+        </div>
+        <div class="logo">
+          <img src="image/favicon.png" alt="Logo" width="50" id="LOG">
+        </div>
+    </header>
+    <div class="header">
+      <div class="header-content">
+          <h2>GREEN LIGHT GROUP</h2>
+      </div>
+  </div>
+    <div class="scrollable-images" class="fullscreen">
+      <h2>GREEN LIGHT GROUP ARCHITECT GALLELY</h2>
+        <img onclick="openFullScreen(this)" src="image/pl2.jpg" alt="Project 1">
+        <img onclick="openFullScreen(this)" src="image/pl3.jpg" alt="Project 2"><br>
+        <img onclick="openFullScreen(this)" src="image/pl4.jpg" alt="Project 3">
+        <img onclick="openFullScreen(this)" src="image/pl5.jpg" alt="Project 4"><br>
+        <img onclick="openFullScreen(this)" src="image/pl6.jpg" alt="Project 5">
+        <img onclick="openFullScreen(this)" src="image/pl7.jpg" alt="Project 6"><br>
+        <img onclick="openFullScreen(this)" src="image/pl8.jpg" alt="Project 7">
+        <img onclick="openFullScreen(this)" src="image/pl9.jpg" alt="Project 8"><br>
+        <img onclick="openFullScreen(this)" src="image/pl10.jpg" alt="Project 9">
+        <img onclick="openFullScreen(this)" src="image/pl11.jpg" alt="Project 10"><br>
+        <img onclick="openFullScreen(this)" src="image/pl12.jpg" alt="Project 11">
+        <img onclick="openFullScreen(this)" src="image/pl13.jpg" alt="Project 12"><br>
+        <img onclick="openFullScreen(this)" src="image/pl14.jpg" alt="Project 13">
+        <img onclick="openFullScreen(this)" src="image/pl15.jpg" alt="Project 14"><br>
+        <img onclick="openFullScreen(this)" src="image/pl16.jpg" alt="Project 15">
+        <img onclick="openFullScreen(this)" src="image/pl17.jpg" alt="Project 16"><br>
+        <img onclick="openFullScreen(this)" src="image/plc.jpg" alt="Project 17">
+        <img onclick="openFullScreen(this)" src="image/plb.jpg" alt="Project 18"><br>
+        <img onclick="openFullScreen(this)" src="image/pl19.jpg" alt="Project 19">
+        <img onclick="openFullScreen(this)" src="image/pl20.jpg" alt="Project 19"><br>
+        <img onclick="openFullScreen(this)" src="image/pla.jpg" alt="Project 20">
+        <img onclick="openFullScreen(this)" src="image/pld.jpg" alt="Project 21"><br>
+        <img onclick="openFullScreen(this)" src="image/ple.jpg" alt="Project 22">
+        <img onclick="openFullScreen(this)" src="image/plf.jpg" alt="Project 23"><br>
+        <img onclick="openFullScreen(this)" src="image/plg.jpg" alt="Project 24">
+        <img onclick="openFullScreen(this)" src="image/plh.jpg" alt="Project 25"><br>
+        <img onclick="openFullScreen(this)" src="image/pli.jpg" alt="Project 26">
+        <img onclick="openFullScreen(this)" src="image/plj.jpg" alt="Project 27"><br>
+        <img onclick="openFullScreen(this)" src="image/plk.jpg" alt="Project 28">
+        <img onclick="openFullScreen(this)" src="image/pll.jpg" alt="Project 29"><br>
+        <img onclick="openFullScreen(this)" src="image/plm.jpg" alt="Project 30">
+        <img onclick="openFullScreen(this)" src="image/pln.jpg" alt="Project 31"><br>
+        <img onclick="openFullScreen(this)" src="image/plo.jpg" alt="Project 32">
+        <img onclick="openFullScreen(this)" src="image/plp.jpg" alt="Project 33"><br>
+        <img onclick="openFullScreen(this)" src="image/plq.jpg" alt="Project 34">
+        <img onclick="openFullScreen(this)" src="image/plu.jpg" alt="Project 35"><br>
+        <img onclick="openFullScreen(this)" src="image/plr.jpg" alt="Project 36">
+        <img onclick="openFullScreen(this)" src="image/pls.jpg" alt="Project 37"><br>
+        <img onclick="openFullScreen(this)" src="image/plt.jpg" alt="Project 38">
+        <img onclick="openFullScreen(this)" src="image/plv.jpg" alt="Project 39"><br>
+        <img onclick="openFullScreen(this)" src="image/plw.jpg" alt="Project 40">
+        </div>
+        <div class="fullscreen" onclick="closeFullScreen()">
+          <img id="fullScreenImg" src="">
+      </div>
+  
+      <script>
+          function openFullScreen(imgElement) {
+              document.getElementById("fullScreenImg").src = imgElement.src;
+              document.querySelector(".fullscreen").classList.add("active");
+          }
+  
+          function closeFullScreen() {
+              document.querySelector(".fullscreen").classList.remove("active");
+          }
+      </script>
+  
+        <div class="services" id="services">
+            <div class="Service">
+                <h1>
+                    OUR SERVICES
+                </h1>
+            </div><br><br>
+            <div class="service-item">
+                <img src="image/pl4.jpg" alt="Service 1">
+                <p>Building design</p>
+            </div>
+            <div class="service-item">
+                <img src="image/PERMIT.jpg" alt="Service 2">
+                <p>Buiding permit</p>
+            </div>
+            <div class="service-item">
+                <img src="image/pl18.jpg" alt="Service 3">
+                <p>Construction Supervisor</p>
+            </div>
+            <div class="service-item">
+                <img src="image/sur_c.jpg" alt="Service 4">
+                <p>Architecture Design</p>
+            </div>
+        </div>
+        <div class="about-us" id="about">
+            <h2>About Us</h2>
+            <img src="image/favicon.png" alt="About Us Image"><br>
+            <h2>GREEN LIGHT GROUP</h2><br>
+            <p>We are a leading construction company with a passion <br> for building and a commitment to excellence. <br> Our team of experienced professionals is dedicated to delivering <br> high-quality projects that meet the unique needs of our clients.</p>
+            <p>With a focus on innovation, sustainability, and safety, <br>we strive to exceed expectations and create lasting value for our <br>clients and communities.</p>
+        <br><br></div>
+        <div class="fpart">
+          <h2>Talk to us</h2>
+          <div class="form">
+            <form action="#" method="post">
+            <input type="text" placeholder="Your Name"><br><br>
+            <input type="email" placeholder="Your Email"><br><br>
+            <textarea placeholder="Your Message"></textarea><br><br>
+            <button id="fsub" onclick="showMessage()">Send Message</button>
+            <p id="messageBox">Your message has been sent successfully!</p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("messageBox").style.display = "block";
+        }
+    </script>
+            </form>
+          </div>
+        </div>
+        <div class="about-us" id="about">
+        <div class="container" id="contact">
+            <div class="content">
+              <div class="contact-info">
+                <h2>CONTACT US</h2>
+                <div class="location">
+                  <a  href="https://maps.app.goo.gl/u5LU1TAd6wgSJxug6"target="_blank"><img id="coim" src="image/map.png" alt="Location">
+                  <span>kigali-kicukiro <br>near zinia market</span></a>
+                  <a href="https://wa.me/+250787004701"target="_blank"><img id="coim" src="image/wame.png" alt="WhatsApp">
+                  <span>Whatsap me</span></a>
+                  <a href="httphttps://www.linkedin.com/in/migisha-aime-la-paix-65178218a/?originalSubdomain=rw"target="_blank"><img id="coim" src="image/liin.png" alt="WhatsApp">
+                    <span>linked in</span></a>
+                  <a  href="mailto:migishaaime015@gmail.com"target="_blank"><img id="coim" src="image/mail.png" alt="Email">
+                  <span title="migishaaime015@gmail.com">Mail us</span></a>
+                  <a  href="https://www.instagram.com/lapaix.aime/profilecard/?igsh=MTM4YXF6ZGI0MHYxag%3D%3D"target="_blank"><img id="coim" src="image/ig.png" alt="Email">
+                    <span >intsagram</span></a>
+                  <a href="https://www.facebook.com/profile.php?id=100008421815581"target="_blank"><img id="coim" src="image/fb.png" alt="Email">
+                    <span>chat us</span></a>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
